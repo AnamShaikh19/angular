@@ -1,0 +1,15 @@
+.signup {
+  padding-top: 80px; /* Adjust this value to match your header's height */
+}
+#signup {
+  width: 100%;
+  height: 60vh; /* Full screen height */
+  background-image: url('/signup.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   background-color: #f8f9fa;
+}
+.signup .container {
+  text-align: center;
+}

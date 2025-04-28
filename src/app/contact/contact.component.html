@@ -1,75 +1,50 @@
-<section id="contact" class="contact section">
+<app-signup></app-signup>
+<section id="contact" class="contact bg-black" style="border: solid 1px blue;" >
+  <div class="container" style="border: solid 1px red;">
 
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Contact</h2>
-    <p>Contact Us</p>
-  </div><!-- End Section Title -->
-
-  <div class="container" data-aos="fade" data-aos-delay="100">
-
-    <div class="row gy-4">
-
-      <div class="col-lg-4">
-        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-          <i class="bi bi-geo-alt flex-shrink-0"></i>
-          <div>
-            <h3>Address</h3>
-            <p>A108 Adam Street, New York, NY 535022</p>
+    <!-- Address / Email / Phone cards -->
+    <div class="d-flex gap-3 gx-4 gx-lg-5 justify-content-between" style="border: solid 1px blue;">
+      <div class="col-md-4 mb-3 mb-md-0 p-4">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+            <h4 class="text-uppercase m-0">Address</h4>
+            <hr class="my-4 mx-auto" />
+            <div class="small text-black-50">4923 Market Street, Orlando FL</div>
           </div>
-        </div><!-- End Info Item -->
-
-        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-          <i class="bi bi-telephone flex-shrink-0"></i>
-          <div>
-            <h3>Call Us</h3>
-            <p>+1 5589 55488 55</p>
-          </div>
-        </div><!-- End Info Item -->
-
-        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-          <i class="bi bi-envelope flex-shrink-0"></i>
-          <div>
-            <h3>Email Us</h3>
-          </div>
-        </div><!-- End Info Item -->
-
+        </div>
       </div>
-
-      <div class="col-lg-8">
-        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-          <div class="row gy-4">
-
-            <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-            </div>
-
-            <div class="col-md-6 ">
-              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-            </div>
-
-            <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-            </div>
-
-            <div class="col-md-12">
-              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-            </div>
-
-            <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-
-              <button type="submit">Send Message</button>
-            </div>
-
+      <div class="col-md-4 mb-3 mb-md-0 p-4">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <i class="fas fa-envelope text-primary mb-2"></i>
+            <h4 class="text-uppercase m-0">Email</h4>
+            <hr class="my-4 mx-auto" />
+            <div class="small text-black-50"><a href="#!">hello.com</a></div>
           </div>
-        </form>
-      </div><!-- End Contact Form -->
-
+        </div>
+      </div>
+      <div class="col-md-4 mb-3 mb-md-0 p-4">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+            <h4 class="text-uppercase m-0">Phone</h4>
+            <hr class="my-4 mx-auto" />
+            <div class="small text-black-50">+1 (555) 902-8832</div>
+          </div>
+        </div>
+      </div>
     </div>
 
-  </div>
+    <!-- Social Icons -->
+    <!-- <div class="d-flex justify-content-center mb-4" style="border: solid 1px red;">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  rel="stylesheet">
 
+      <a class="btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+      <a class="btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+      <a class="btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+    </div> -->
+
+  </div>
 </section>
+
