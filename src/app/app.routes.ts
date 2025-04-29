@@ -12,7 +12,8 @@ export const routes: Routes = [
   {path: 'hero', component:HeroComponent},
   {path: 'about', component: AboutComponent},
   {path: 'services', component: ServicesComponent},
-  {path: 'contact', component: ContactComponent},
   {path: 'signup', component: SignupComponent},
+  {path: 'contact', component: ContactComponent},
+
   {path: 'footer', component: FooterComponent}
 ];

@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-import { SignupComponent } from '../signup/signup.component';
 
 @Component({
   selector: 'app-contact',
-  imports: [SignupComponent],
+  imports: [],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.css'
 })

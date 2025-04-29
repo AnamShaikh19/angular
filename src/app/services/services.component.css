@@ -1,3 +1,7 @@
-.services {
-  padding-top: 80px; /* Adjust this value to match your header's height */
+.service-icon {
+
+  width: 100px;
+  height: 100px;
 }
+
+

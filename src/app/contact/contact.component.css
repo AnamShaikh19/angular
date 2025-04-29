@@ -1,7 +1,43 @@
-.contact {
-   /* Adjust this value to match your header's height */
-
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 20px;
+  background-color: #000; /* black background */
 }
-.contact {
 
+.contact-card {
+  flex: 1 1 250px;
+  max-width: 280px;
+  background: #fff; /* white cards */
+  border-radius: 8px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-card i {
+  font-size: 22px;
+  color: #0d9488; /* teal like in your image */
+  margin-bottom: 10px;
+}
+
+.contact-card h4 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #0f766e;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.contact-card p {
+  color: #444;
+  font-size: 14px;
+  margin: 0;
 }

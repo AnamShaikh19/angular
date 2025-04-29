@@ -1,12 +1,56 @@
-<header class="masthead" style="border: solid 1px red">
-  <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-      <div class="d-flex justify-content-center">
-          <div class="text-center">
-              <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-              <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-              <a class="btn btn-primary" href="#about">Get Started</a>
-          </div>
+<!-- home.component.html -->
+
+<header id="hero" class="masthead text-center text-white d-flex">
+  <div id="heroCarousel" class="carousel slide w-100" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-background" style="background-image: url('/hero1.jpg');"></div>
+        <div class="carousel-caption">
+          <h1><strong>Welcome to Our Studio</strong></h1>
+          <p>It's Nice To Meet You</p>
+          <a class="btn btn-warning btn-xl" href="#services">Tell Me More</a>
+
+        </div>
       </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-background" style="background-image: url('/hero2.jpg');"></div>
+        <div class="carousel-caption">
+          <h1><strong>Creative Solutions</strong></h1>
+          <p>Designed for your success</p>
+          <a class="btn btn-warning btn-xl" href="#about">Tell Me More</a>
+
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-background" style="background-image: url('/hero3.jpg');"></div>
+        <div class="carousel-caption">
+          <h1><strong>Let's Work Together</strong></h1>
+          <p>Contact us to get started</p>
+          <a class="btn btn-warning btn-xl" href="#contact">Tell Me More</a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Arrows for Manual Click -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
   </div>
 </header>
+
 
